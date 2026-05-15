@@ -37,7 +37,6 @@ L'APK est décompilé en fichiers Smali pour permettre le patching des méthodes
 
 ## Étape 3 — Patch Smali
 
-![Patch Smali](screenshots/05_smali_patch.png)
 
 Toutes les méthodes de détection sont patchées pour retourner `false` : `isDeviceRooted()`, `checkForDangerousBinaries()`, `checkForRootManagementApps()`, `checkForRootShell()` et `checkForWritableSystem()`.
 
